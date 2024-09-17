@@ -1,23 +1,35 @@
+- SOFTWARES : 
 - alacritty 
 - kitty 
 - NVChad
-- neofetch/fastfetch
+- neofetch/fastfetch (https://github.com/sameemul-haque/dotfiles/tree/mocha/.config/fastfetch)
+- tmux + tmuxinator
+- lsd (impoved ls with icons) or alternative / logo-ls (https://github.com/Yash-Handa/logo-ls?tab=readme-ov-file#linux
 
 
+- TASKS POST BUILD : 
+- install zsh + ohmyzsh/ohmyposh + powerlevel10k
+- create aliases
+```bash
+alias q="exit"
+alias c="clear"
+alias nv="nvim"
+alias ls="lsd" 
+```
 
-- Fonts : 
-- Meslo 
+- FONTS : 
+- Meslo from powerlevel10k 
 - Jet brain Nerd font 
 
 
-
-- Window manager :
+- WINDOW MANAGER :
 - i3 (debian) / hyprland (arch) 
 - install xorg
-- rofi 
+- rofi + catpuccin theme 
 
 
-
+- THEME : 
+- Catpuccin
 
 
 
