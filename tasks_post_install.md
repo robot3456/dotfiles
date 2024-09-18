@@ -15,6 +15,7 @@ alias q="exit"
 alias c="clear"
 alias nv="nvim"
 alias ls="lsd" 
+alias nf="neofetch"
 ```
 
 - FONTS : 
