@@ -10,6 +10,7 @@
 - TASKS POST BUILD : 
 - install zsh + ohmyzsh/ohmyposh + powerlevel10k
 - create aliases
+- create a Gitted directory
 ```bash
 alias q="exit"
 alias c="clear"
