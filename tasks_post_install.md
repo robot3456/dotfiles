@@ -25,6 +25,7 @@ alias nf="neofetch"
 
 
 - WINDOW MANAGER :
+- change greeter-session from "pi-greeter-wayfire" to "lightdm-gtk-greeter" in /etc/lightdm.lightdm.conf
 - i3 (debian) / hyprland (arch) 
 - install xorg
 - rofi + catpuccin theme 
