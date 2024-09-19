@@ -1,7 +1,8 @@
 - SOFTWARES : 
 - alacritty 
 - kitty 
-- NVChad
+- neovim + NVChad
+- stow to manage dotfiles
 - neofetch/fastfetch (https://github.com/sameemul-haque/dotfiles/tree/mocha/.config/fastfetch)
 - tmux + tmuxinator
 - lsd (impoved ls with icons) or alternative / logo-ls (https://github.com/Yash-Handa/logo-ls?tab=readme-ov-file#linux
@@ -27,6 +28,8 @@ alias nf="neofetch"
 - WINDOW MANAGER :
 - change greeter-session from "pi-greeter-wayfire" to "lightdm-gtk-greeter" in /etc/lightdm.lightdm.conf
 - i3 (debian) / hyprland (arch) 
+- dmenu 
+- feh (?)
 - install xorg
 - rofi + catpuccin theme 
 
