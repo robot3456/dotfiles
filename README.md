@@ -54,12 +54,30 @@ alias nf="neofetch"
 - create "Gitted" and "Programming" directory
 
 
-## Fonts: 
+## Fonts:
+
+Install these fonts and run ```fc-cache -f -v```
+
 - Meslo from powerlevel10k 
 - Jet brain Nerd font
 - UbutuMono 
 - Iosevka
 - [(Other Nerd fonts)](https://www.nerdfonts.com/)
+
+List all fonts with ```fc-list```
+
+## Changing fonts : 
+
+Changing fonts is not as easy as changing it only in i3. 
+Here are all the locations where we should change them : 
+
+```bash
+~/.config/i3/config
+~/.config/rofi/launchers/type-2/shared/fonts.rasi
+~/.config/polybar/config.ini
+(for all apps)   ~/.config/gtk-3.0/settings.ini 
+
+```
 
 ## Window Manager:
 - change greeter-session from "pi-greeter-wayfire" to "lightdm-gtk-greeter" in /etc/lightdm.lightdm.conf
