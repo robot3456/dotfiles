@@ -5,6 +5,11 @@
 
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 
+
+;; from : https://github.com/rainstormstudio/nerd-icons.el :
+;;(require 'nerd-icons)
+
+
 ;; packages needed to use the following configuration:
 ;; smex, Gruber-darker-theme, 
 
@@ -25,6 +30,33 @@
 
 (setq backup-directory-alist '(("." . "~/.emacs_saves")))
 (set-frame-font "Iosevka 14")
+;;(set-frame-font "Iosevka NF-14")
+
+(require 'nerd-icons)
+
+(require 'unicode-fonts)
+(unicode-fonts-setup)
+
+;; UTF-8 support
+(prefer-coding-system       'utf-8)
+(set-default-coding-systems 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)    
+(setq x-select-request-type '(UTF8_STRING COMPOUND_TEXT TEXT STRING))
+
+;; Charger rainbow-mode et l'activer globalement
+(require 'rainbow-mode)
+(define-globalized-minor-mode global-rainbow-mode rainbow-mode
+  (lambda () (rainbow-mode 1)))
+(global-rainbow-mode 1)
+
+
+	 
+;;; Whitespace mode
+(defun rc/set-up-whitespace-handling ()
+  (interactive)
+  (whitespace-mode 1)
+  (add-to-list 'write-file-functions 'delete-trailing-whitespace))
 
 
 ;; gruber-darker-theme by Tsoding (rexim on GH) : https://github.com/rexim/gruber-darker-theme
@@ -36,7 +68,8 @@
  '(custom-enabled-themes '(gruber-darker))
  '(custom-safe-themes
    '("e27c9668d7eddf75373fa6b07475ae2d6892185f07ebed037eedf783318761d7" default))
- '(package-selected-packages '(gruber-darker-theme smex))
+ '(package-selected-packages
+   '(rainbow-mode unicode-fonts nerd-icons gruber-darker-theme smex))
  '(warning-suppress-types '((comp))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -44,4 +77,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
 
