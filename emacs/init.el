@@ -29,11 +29,12 @@
 (global-display-line-numbers-mode 1)
 
 (setq backup-directory-alist '(("." . "~/.emacs_saves")))
+
 (set-frame-font "Iosevka 14")
 ;;(set-frame-font "Iosevka NF-14")
 
+;; Useful ? Idk
 (require 'nerd-icons)
-
 (require 'unicode-fonts)
 (unicode-fonts-setup)
 
@@ -49,7 +50,6 @@
 (define-globalized-minor-mode global-rainbow-mode rainbow-mode
   (lambda () (rainbow-mode 1)))
 (global-rainbow-mode 1)
-
 
 	 
 ;;; Whitespace mode
