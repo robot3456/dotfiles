@@ -66,7 +66,7 @@ Install these fonts and run ```fc-cache -f -v```
 
 List all fonts with ```fc-list```
 
-## Changing fonts : 
+### Changing fonts : 
 
 Changing fonts is not as easy as changing it only in i3. 
 Here are all the locations where we should change them : 
