@@ -10,6 +10,6 @@ emacs/auto-save-list/
 emacs/ido.last
 emacs/elpa/
 emacs/var/
-
+emacs/eshell
 
 

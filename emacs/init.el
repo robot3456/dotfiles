@@ -17,6 +17,9 @@
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 
+(defalias 'yes-or-no-p 'y-or-n-p) ;; Until Emacs 28
+
+
 ;; Map triple escape to one signle escape
 (global-set-key (kbd "<escape>")      'keyboard-escape-quit)
 
