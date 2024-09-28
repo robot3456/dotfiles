@@ -45,3 +45,28 @@ end)
 
 
 vim.opt.mouse="a"
+
+
+-- Add extend selection like Jetbrains Ide
+require('nvim-treesitter.configs').setup {
+  ensure_installed = { 'bash', 'css', 'html', 'javascript', 'json', 'jsonc', 'lua', 'rust', 'typescript','python','c' },
+  highlight = {
+    enable = true,
+  },
+  incremental_selection = {
+    enable = true,
+    keymaps = {
+      init_selection = '<C-w>',
+      scope_incremental = '<TAB>',
+      node_incremental = '<C-w>',
+      node_decremental = '<C-S-w>',
+    },
+  },
+}
+
+
+
+
+
+
+
