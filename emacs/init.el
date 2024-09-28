@@ -19,6 +19,14 @@
 
 (defalias 'yes-or-no-p 'y-or-n-p) ;; Until Emacs 28
 
+(require 'use-package)
+
+(use-package expand-region
+  :bind ("C-=" . er/expand-region))
+
+;;(require expand-region
+;;  :bind (:map custom-bindings-map ("C-=" . er/expand-region)))
+
 
 ;; Map triple escape to one signle escape
 (global-set-key (kbd "<escape>")      'keyboard-escape-quit)
@@ -72,7 +80,7 @@
  '(custom-safe-themes
    '("e27c9668d7eddf75373fa6b07475ae2d6892185f07ebed037eedf783318761d7" default))
  '(package-selected-packages
-   '(rainbow-mode unicode-fonts nerd-icons gruber-darker-theme smex))
+   '(use-package expand-region rainbow-mode unicode-fonts nerd-icons gruber-darker-theme smex))
  '(warning-suppress-types '((comp))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
