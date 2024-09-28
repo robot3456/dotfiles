@@ -1,0 +1,22 @@
+
+;; ----- smex-history -----
+(
+ shell
+ term-terminal-menu
+ term
+ undo-redo
+ undo
+ customize-themes
+ list-packages
+)
+
+;; ----- smex-data -----
+(
+ (undo . 2)
+ (list-packages . 1)
+ (customize-themes . 1)
+ (undo-redo . 1)
+ (term . 1)
+ (term-terminal-menu . 1)
+ (shell . 1)
+)
