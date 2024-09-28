@@ -50,6 +50,10 @@ alias c="clear"
 alias nv="nvim"
 alias ls="lsd" 
 alias nf="neofetch"
+
+alias ga="git add"
+alias gc="git commit -m"
+alias gp="git push"
 ```
 - create "Gitted" and "Programming" directory
 
@@ -63,7 +67,7 @@ Install these fonts and run ```fc-cache -f -v```
 - UbutuMono 
 - Iosevka
 - Unscii 
-- Inter (for system font)
+- Inter or Cantarell (for system font)
 - [(Other Nerd fonts)](https://www.nerdfonts.com/)
 
 List all fonts with ```fc-list```
