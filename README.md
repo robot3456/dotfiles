@@ -10,7 +10,7 @@ This is the Readme.md of my dotfiles containing all information on the softwares
 - [Turn VIM into a full featured IDE with only one command - Dreams of code](https://www.youtube.com/watch?v=Mtgo-nP_r8Y&list=PL05iK6gnYad1sb4iQyqsim_Jc_peZdNXf&index=2)
 - [Tmux has forever changed the way I write code. - Dreams of code](https://www.youtube.com/watch?v=DzNmUNvnB04)
 - [This may be my favorite CLI tool ever - typecraft](https://www.youtube.com/watch?v=oTNRvnQLLLs)
-
+- [Configuring my Emacs. Vim users are not invited!](https://www.youtube.com/watch?v=PKaJoqQQoIA)
 ## How to use ?
 
 - Clone this repo into your .config directory :

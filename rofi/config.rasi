@@ -9,7 +9,7 @@
 configuration {
 	/*---------- General setting ----------*/
 	modi: "drun,run,filebrowser,window";
-	case-sensitive: false;
+  case-sensitive: false;
 	cycle: true;
 	filter: "";
 	scroll-method: 0;
@@ -19,7 +19,6 @@ configuration {
 /*	cache-dir: ;*/
 	steal-focus: false;
 /*	dpi: -1;*/
-
 	/*---------- Matching setting ----------*/
 	matching: "normal";
 	tokenize: true;
@@ -38,6 +37,8 @@ configuration {
 	drun-url-launcher: "xdg-open";
 	drun-use-desktop-cache: false;
 	drun-reload-desktop-cache: false;
+
+
 	drun {
 		/** Parse user desktop files. */
 		parse-user:   true;
@@ -83,8 +84,9 @@ configuration {
 
 	/*---------- Misc setting ----------*/
 	terminal: "rofi-sensible-terminal";
-	font: "Mono 12";
-	sort: false;
+	/*font: Iosevka 12;*/
+	font: "Unscii 12";	
+  sort: false;
 	threads: 0;
 	click-to-exit: true;
 /*	ignored-prefixes: "";*/
