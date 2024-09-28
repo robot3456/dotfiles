@@ -2,4 +2,10 @@
 *.pub
 
 ./markdown-preview.nvim/
+./emacs/eln-cache/
+./emacs/init.el~
+./emacs/auto-save-list/
+
+
+
 

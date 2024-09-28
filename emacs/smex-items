@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- shell
- term-terminal-menu
  term
+ shell
  undo-redo
  undo
  customize-themes
  list-packages
+ cd
 )
 
 ;; ----- smex-data -----
@@ -16,7 +16,7 @@
  (list-packages . 1)
  (customize-themes . 1)
  (undo-redo . 1)
- (term . 1)
+ (term . 2)
  (term-terminal-menu . 1)
  (shell . 1)
 )

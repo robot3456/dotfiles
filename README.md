@@ -62,6 +62,8 @@ Install these fonts and run ```fc-cache -f -v```
 - Jet brain Nerd font
 - UbutuMono 
 - Iosevka
+- Unscii 
+- Inter (for system font)
 - [(Other Nerd fonts)](https://www.nerdfonts.com/)
 
 List all fonts with ```fc-list```
